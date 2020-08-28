@@ -6,7 +6,7 @@
 		"dockerfile": "Dockerfile",
 	},
 
-	"workspaceMount": ["source=/src,target=/var/www/html/,type=bind,consistency=cached"],
+	"workspaceMount": "source=/src,target=/var/www/html/,type=bind,consistency=delegated",
 
 
 	// Set *default* container specific settings.json values on container create.
