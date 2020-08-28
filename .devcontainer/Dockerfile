@@ -1,5 +1,5 @@
 FROM php:7.4-apache
-COPY ./src /var/www/html/
+COPY ../src/ /var/www/html/
 
 #USER root
 #RUN apt-get update && apt-get install -y mariadb-server
